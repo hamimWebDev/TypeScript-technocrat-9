@@ -21,5 +21,5 @@ const user2: {
   isMarried: false,
 };
 
-user2.isMarried = true; // error
+// user2.isMarried = true; // error
 user2.middleName = "Howlader"; // No error
