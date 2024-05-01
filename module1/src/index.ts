@@ -1,3 +1,5 @@
-let course: string = "Next level development";
+{
+  let course: string = "Next level development";
 
-console.log(course);
+  console.log(course);
+}

@@ -1,1 +1,3 @@
-const test: string = "I am testing";
+{
+  const test: string = "I am testing";
+}
