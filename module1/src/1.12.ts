@@ -12,25 +12,6 @@
 
   // unknown types
 
-  // const carSpeed = (value: unknown) => {
-  //   if (typeof value === "number") {
-  //     const speedMetrePerSecond = (value * 1000) / 3600;
-  //     const carSpeed = (value: unknown) => {
-  //       if (typeof value === "number") {
-  //         const speedMetrePerSecond = (value * 1000) / 3600;
-  //         console.log(`The car speed is ${speedMetrePerSecond}ms^-1`);
-  //       } else if (typeof value === "string") {
-  //         const [result, unit] = value.split("");
-  //         const speedMetrePerSecond = (parseFloat(result) * 1000) / 3600;
-  //         return `The car speed is ${speedMetrePerSecond}ms^-1`;
-  //       } else {
-  //         return `${value} This input is Wrong`;
-  //       }
-  //     };
-  //   }
-  // };
-
-  // console.log(carSpeed(1000))
 
   const carSpeed = (value: unknown) => {
     if (typeof value === "number") {
@@ -59,6 +40,8 @@
 
   // hiHello(12);
   // hiHello("12");
+
+  // never type
 
   const thoroError = (sms: string): never => {
     throw new Error(sms);
