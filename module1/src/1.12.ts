@@ -12,7 +12,10 @@
 
   // unknown types
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 324a4d8336993b29c710abd472e76b92d03f445b
   const carSpeed = (value: unknown) => {
     if (typeof value === "number") {
       const speedMetrePerSecond = (value * 1000) / 3600;
