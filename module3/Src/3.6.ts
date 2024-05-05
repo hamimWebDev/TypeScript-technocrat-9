@@ -8,13 +8,14 @@
       protected balance: number
     ) {}
     // setter
-    
+
     // addDeposit(amount: number) {
     //   this.balance = this.balance + amount;
     // }
 
     set Deposit(amount: number) {
       this.balance = this.balance + amount;
+      
     }
 
     // getter
